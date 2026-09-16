@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daniel Smith Session - Official Community</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background-color: #f1f4f9;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+      padding: 24px 12px;
+    }
+
+    .card-container {
+      background: #ffffff;
+      width: 100%;
+      max-width: 440px;
+      border-radius: 18px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      padding: 35px 24px 28px 24px;
+      text-align: center;
+    }
+
+    /* Profile Image with Ring */
+    .avatar-wrapper {
+      width: 106px;
+      height: 106px;
+      border-radius: 50%;
+      border: 3px solid #0088cc;
+      padding: 3px;
+      margin: 0 auto 18px auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .avatar-wrapper img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    /* Title & Subscribers */
+    .channel-name {
+      font-size: 24px;
+      font-weight: 700;
+      color: #1a1e24;
+      margin-bottom: 6px;
+    }
+
+    .subscriber-count {
+      font-size: 14px;
+      font-weight: 500;
+      color: #64748b;
+      margin-bottom: 24px;
+    }
+
+    /* Info Box */
+    .info-box {
+      background-color: #f8fafc;
+      border: 1px solid #edf2f7;
+      border-radius: 12px;
+      padding: 18px 16px;
+      text-align: left;
+      margin-bottom: 22px;
+    }
+
+    .info-box h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: #1e293b;
+      margin-bottom: 10px;
+    }
+
+    .info-box p {
+      font-size: 13px;
+      line-height: 1.55;
+      color: #475569;
+      margin-bottom: 0;
+    }
+
+    /* Button */
+    .join-btn {
+      display: block;
+      width: 100%;
+      background-color: #0073aa;
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 600;
+      padding: 15px;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: background-color 0.2s ease, transform 0.1s ease;
+      box-shadow: 0 4px 10px rgba(0, 115, 170, 0.2);
+    }
+
+    .join-btn:hover {
+      background-color: #005f8d;
+    }
+
+    .join-btn:active {
+      transform: scale(0.98);
+    }
+
+    /* Features List */
+    .features-list {
+      list-style: none;
+      text-align: left;
+      margin-top: 24px;
+      padding: 0 6px;
+    }
+
+    .features-list li {
+      position: relative;
+      padding-left: 20px;
+      font-size: 13.5px;
+      color: #475569;
+      margin-bottom: 12px;
+      font-weight: 500;
+    }
+
+    .features-list li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: #0088cc;
+      font-size: 18px;
+      line-height: 1;
+      top: -1px;
+    }
+
+    .features-list li:last-child {
+      margin-bottom: 0;
+    }
+
+    /* Disclaimer Section */
+    .disclaimer-box {
+      margin-top: 22px;
+      padding-top: 16px;
+      border-top: 1px solid #edf2f7;
+      text-align: center;
+    }
+
+    .disclaimer-box p {
+      font-size: 11px;
+      line-height: 1.5;
+      color: #94a3b8;
+    }
+
+    /* Footer */
+    .footer {
+      margin-top: 14px;
+      font-size: 11px;
+      color: #cbd5e1;
+    }
+  </style>
+</head>
+  <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1574189260370973');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1574189260370973&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+<body>
+
+  <div class="card-container">
+    
+    <!-- Profile Logo -->
+    <div class="avatar-wrapper">
+      <img src="https://i.ibb.co/kNJqnky/IMG-20260915-165126-100.jpg" alt="Daniel Smith Session Logo">
+    </div>
+
+    <!-- Name & Stats -->
+    <h1 class="channel-name">Daniel Smith Session</h1>
+    <div class="subscriber-count"></div>
+
+    <!-- Description Card -->
+    <div class="info-box">
+      <h3>Sports Discussion
+Community</h3>
+      <p>Stay connected for match-related discussions, general updates, public information, and community insights.</p>
+    </div>
+
+    <!-- CTA Button -->
+    <a href="https://telegram.me/+zw2o2y2ajZFiN2E1" target="_blank" class="join-btn">
+      Join Telegram Channel
+    </a>
+
+    <!-- Bullet Points -->
+    <ul class="features-list">
+      <li>Daily updates and discussions</li>
+      <li>General sports discussion and
+updates</li>
+      <li>Informational community content</li>
+    </ul>
+
+    <!-- Disclaimer -->
+    <div class="disclaimer-box">
+      <p><strong></strong> General sports discussion and updates for
+informational purposes.</p>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      © 2026 Daniel Smith Session. All rights reserved.
+    </div>
+
+  </div>
+
+</body>
+</html>
